@@ -4,9 +4,8 @@ class Node(object):
         self.data, self.nextPointer = data, nextPointer
     def getData(self):
         return self.data
-    def getNext(self):
-        if nextPointer != None:
-            return nextPointer
+    def getNext(self): return self.nextPointer
+
 
 class Data():
     def __init__(self, name, time, date, description = None):
